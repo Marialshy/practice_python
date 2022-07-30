@@ -21,5 +21,4 @@ def find_max_2(list_1: list):
             max_num = list_1[i]
     return max_num-max_num2
     
-print(find_fractional_part(some_list))
 print(find_max_2(find_fractional_part(some_list)))
