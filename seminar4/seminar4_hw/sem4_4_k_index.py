@@ -12,7 +12,7 @@ with open(path, 'a') as f:
             elif k==1: 
                 f.write(f'{a}*x')
             else: 
-                f.write(f'+ {a}')
+                f.write(f' + {a}')
         k-=1
     f.write(' = 0')
     f.write('\n')
